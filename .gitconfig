@@ -1,0 +1,38 @@
+[user]
+	name = Maciej Kobuszewski
+	email = maciej.kobuszewski@advexperience.pl
+[apply]
+    whitespace = nowarn
+[core]
+    editor = /usr/bin/vim
+    excludesfile = ~/.git_global_ignores
+    preloadindex = true
+[diff]
+    tool = diffmerge
+[difftool]
+    prompt = false
+[difftool "diffmerge"]
+    cmd = diffmerge \"$LOCAL\" \"$REMOTE\"
+[merge]
+    tool = diffmerge
+[mergetool]
+    keepBackup = false
+[mergetool "diffmerge"]
+    cmd = diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+    trustexitcode = true
+[pull]
+    rebase = true
+[rebase]
+    autosquash = true
+    autoStash = true
+[status]
+    relativePaths = true
+[push]
+    default = tracking
+[web]
+    browser = open
+[pager]
+    stash = false
+[github]
+	user = maco222
+	token = 6d2cb7bbf1a975d29c3fa1dfbe7fab8f417ba269
