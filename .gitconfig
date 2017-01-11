@@ -33,6 +33,3 @@
     browser = open
 [pager]
     stash = false
-[github]
-	user = maco222
-	token = 6d2cb7bbf1a975d29c3fa1dfbe7fab8f417ba269
